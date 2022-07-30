@@ -18,9 +18,11 @@
         android:id="@+id/etNewTask"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:hint="New Task"
+        android:hint="@string/new_task"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:autofillHints="@string/new_task"
+        android:inputType="text" />
 
     <Button
         android:id="@+id/btnAddTask"
@@ -28,6 +30,6 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="Add Task"/>
+        android:text="@string/add_task"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
