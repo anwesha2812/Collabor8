@@ -1,5 +1,39 @@
 <resources>
-    <string name="app_name">App1</string>
+    <string name="app_name">Collabor8</string>
     <string name="add_task">Add Task</string>
     <string name="new_task">New Task</string>
+    <string name="register">REGISTER</string>
+    <string name="name">Name</string>
+    <string name="moodle_id">Moodle ID</string>
+    <string name="department">Dept (CS/IT/Civil/Mech/AIML/DS/EXTC)</string>
+    <string name="year">Year(SE/TE/BE)</string>
+    <string name="div">Div(A/B/C/D)</string>
+    <string name="phone">Phone</string>
+    <string name="email_id">Email ID</string>
+    <string name="password">Password</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="signup">SIGNUP</string>
+    <string name="moodleid">Moodle ID</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="member_1_leader">Member 1/Leader:</string>
+    <string name="enter_moodle_id">Enter Moodle ID</string>
+    <string name="member_2">Member 2:</string>
+    <string name="departmentrsc">Department</string>
+    <string name="project_details">Project Details</string>
+    <string name="tech_stack">Tech Stack</string>
+    <string name="set_details">SET DETAILS</string>
+    <string name="domain">Domain</string>
+    <string name="project_title">Project Title</string>
+
+
+    <string-array name="dept">
+    <item>COMPS</item>
+    <item>IT</item>
+    <item>CIVIL</item>
+    <item>MECH</item>
+    <item>EXTC</item>
+    <item>AIML</item>
+    <item>DS</item>
+</string-array>
 </resources>

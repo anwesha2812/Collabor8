@@ -1,35 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".MainActivity">
+<!--    android:orientation="vertical"-->
+<!--    android:layout_centerInParent="true">-->
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvTaskList"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="250dp"
+        android:layout_height="158dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:src="@drawable/collabor8_nobg" />
 
     <EditText
-        android:id="@+id/etNewTask"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:hint="@string/new_task"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:autofillHints="@string/new_task"
-        android:inputType="text" />
+        android:id="@+id/edt_MoodleId"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_below="@+id/app_logo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edt_background"
+        android:hint="@string/moodleid"
+        android:paddingLeft="13dp"
+        android:textColorHint="@color/purple_200" />
+
+    <EditText
+        android:id="@+id/edt_Password"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_below="@+id/edt_MoodleId"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edt_background"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="13dp"
+        app:passwordToggleEnabled="true"
+        android:textColorHint="@color/purple_200" />
+
 
     <Button
-        android:id="@+id/btnAddTask"
+        android:id="@+id/btnLogin"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:text="@string/add_task"/>
+        android:layout_below="@id/edt_Password"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_background"
+        android:text="Log In"
+
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnSignup"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnLogin"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="233dp"
+            android:background="@drawable/btn_background"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSignup"
+        android:text="hello">
+
+    </TextView>
+
+</RelativeLayout>

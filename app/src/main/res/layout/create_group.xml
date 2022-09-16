@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CreateGroup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="343dp"
+            android:layout_height="87dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:src="@drawable/collabor8_nobg"
+            app:layout_constraintBottom_toTopOf="@+id/tvCreateGroup"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/tvCreateGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Group"
+            android:gravity="center_horizontal"
+            android:textColor="@color/pagetitle"
+            android:textSize="@android:dimen/app_icon_size"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linBYD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvCreateGroup"
+            tools:layout_editor_absoluteX="64dp"
+            android:gravity="center_horizontal"
+            app:layout_constraintBottom_toTopOf="@id/Members"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <TextView
+                android:id="@+id/tvBranch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Branch"
+                android:textSize="30dp"
+                android:textColor="@color/pagetitle"
+                app:layout_constraintEnd_toStartOf="@id/tvYear"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvCreateGroup" />
+
+            <TextView
+                android:id="@+id/tvYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Year"
+                android:textSize="30dp"
+                android:textColor="@color/pagetitle"
+                app:layout_constraintStart_toEndOf="@id/tvBranch"
+                app:layout_constraintTop_toBottomOf="@id/tvCreateGroup" />
+
+            <TextView
+                android:id="@+id/tvDivision"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:text="Division"
+                android:textColor="@color/pagetitle"
+                android:textSize="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tvYear"
+                app:layout_constraintTop_toBottomOf="@id/tvCreateGroup" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+<LinearLayout
+    android:id="@+id/Members"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintTop_toBottomOf="@id/linBYD"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent">
+
+    <LinearLayout
+        android:id="@+id/llMember1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        >
+
+        <TextView
+            android:id="@+id/member1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/member_1_leader"
+            android:textSize="20sp"
+            android:textColor="@color/purple_200"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtMID1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_moodle_id"
+            android:gravity="start"
+            android:inputType="number"
+            android:textColor="@color/lavender"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llMember2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/member2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/member_2"
+            android:textSize="20sp"
+            android:textColor="@color/purple_200"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtMID2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:hint="Enter Moodle ID"
+            android:gravity="start"
+            android:textColor="@color/lavender"
+            android:inputType="number"
+            />
+    </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llMember3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_alignParentTop="true"
+                >
+
+                <TextView
+                    android:id="@+id/member3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:text="Member 3: "
+                    android:textSize="20dp"
+                    android:textColor="@color/purple_200"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edtMID3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:hint="Enter Moodle ID"
+                    android:gravity="start"
+                    android:textColor="@color/lavender"
+                    android:inputType="number"
+                    />
+            </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llMember4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        >
+
+        <TextView
+            android:id="@+id/member4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Member 4: "
+            android:textSize="20dp"
+            android:textColor="@color/purple_200"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtMID4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:hint="Enter Moodle ID"
+            android:gravity="start"
+            android:textColor="@color/lavender"
+            android:inputType="number"
+            />
+    </LinearLayout>
+</LinearLayout>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:id="@+id/faculty"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@id/Members"
+    android:layout_marginTop="30dp">
+    <LinearLayout
+        android:id="@+id/llGuide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        >
+
+        <TextView
+            android:id="@+id/guide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Faculty Guide: "
+            android:textSize="20dp"
+            android:textColor="@color/purple_200"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtGID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:hint="Enter Faculty ID"
+            android:gravity="left"
+            android:inputType="number"
+            />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="102dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="30dp"
+            android:text="Create"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/faculty"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

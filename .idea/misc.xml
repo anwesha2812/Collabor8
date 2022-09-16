@@ -3,7 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/App1/app/src/main/res/drawable/btn_background.xml" value="0.2065" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/App1/app/src/main/res/drawable/edt_background.xml" value="0.2065" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/App1/app/src/main/res/drawable/ic_baseline_sticky_note_2_24.xml" value="0.144" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/App1/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/App1/app/src/main/res/layout/activity_signup.xml" value="0.21122112211221122" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/App1/app/src/main/res/layout/add_project_details.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/App1/app/src/main/res/layout/admin_homepage.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/App1/app/src/main/res/layout/create_group.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/App1/app/src/main/res/layout/dept_dropdown.xml" value="0.15" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/App1/app/src/main/res/layout/display_project_details.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/App1/app/src/main/res/layout/division_list.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/App1/app/src/main/res/layout/my_tasks_student.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/App1/app/src/main/res/layout/nav_header.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/App1/app/src/main/res/layout/student_homepage.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/App1/app/src/main/res/layout/testing.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/App1/app/src/main/res/layout/view_groups.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/App1/app/src/main/res/menu/nav_drawer_menu.xml" value="0.2" />
       </map>
     </option>
   </component>

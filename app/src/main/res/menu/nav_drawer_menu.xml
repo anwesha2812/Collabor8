@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/miItem1"
+        android:title="My Tasks"/>
+    <item
+        android:id="@+id/miItem2"
+        android:title="Team Progress Board"/>
+    <item
+        android:id="@+id/miItem3"
+        android:title="Schedules"/>
+<!--    <item-->
+<!--        android:id="@+id/miItem4"-->
+<!--        android:title="Item4"/>-->
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dep_array" >
+        <item>Department</item>
+        <item>Comps</item>
+        <item>IT</item>
+        <item>Mech</item>
+        <item>Civil</item>
+        <item>EXTC</item>
+        <item>AIML</item>
+        <item>DS</item>
+
+    </string-array>
+    <string-array name="year_array" >
+        <item>Year</item>
+        <item>SE</item>
+        <item>TE</item>
+        <item>BE</item>
+    </string-array>
+    <string-array name="div_array" >
+        <item>Division</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+
+
+</resources>
