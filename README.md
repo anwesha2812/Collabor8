@@ -1,5 +1,6 @@
 # Collabor8
 Third Year Mini Project
+
 Follow these steps to install Android Studio on Linux:
 
 (1) Unpack the.zip file you downloaded to a location suitable for your apps, such as /opt for shared users or /usr/local/ for your user profile.
